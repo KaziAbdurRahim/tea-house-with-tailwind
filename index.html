@@ -32,7 +32,7 @@
     <!-- header -->
     <header >
              <!-- navbar -->
-     <nav class="flex justify-between px-5 py-2 m-auto sticky top-0 bg-gradient-to-r from-red-100 to-red-50">
+     <nav class="flex justify-between px-5 py-2 m-auto sticky top-0 z-50 bg-gradient-to-r from-red-100 to-red-50">
         <div class="max-w-9 ">
             <img src="images/cup.png" alt="logo of the cup" class="w-fit">
         </div>
@@ -66,10 +66,10 @@
             </div>
 
         </nav>
-       <section class=" max-w-screen-xl mx-auto px-16 lg:ps-28 mb-28">
-        <div class="gap-2 md:flex pt-10">
+       <section class=" max-w-screen-xl mx-auto px-16 lg:ps-28 mb-28 ">
+        <div class=" md:flex pt-10">
             <!-- text container -->
-             <div class="items-center border">
+             <div class="mb-2 items-center border">
                 <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-1"><span>It's good </span><br>
                     <span>tea time at The</span><br> Tea House</h1>
                 <p class="mb-2 w-3/4 text-slate-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
@@ -78,12 +78,12 @@
              </div>
              <!-- image content -->
               
-              <div class="relative border ">
-                <div class="items-center" >
-                    <img src="images/banner.png" alt="2 cup of tea" class="w-full pt-2">
+              <div class=" relative border ">
+                <div class="items-center align-middle" >
+                    <img src="images/banner.png" alt="2 cup of tea" class="w-full pt-2 ">
                   </div>
                   <!-- card  -->
-                  <div class="border absolute flex  px-2 py-2 rounded-lg justify-center items-center gap-1 sm:bottom-7 sm:left-8 lg:bottom-3 lg:left-1/4 bg-white shadow-lg ">
+                  <div class=" absolute flex  px-2 py-2 rounded-lg justify-center items-center gap-1 -bottom-4 sm:bottom-12 sm:left-9 lg:bottom-3 lg:left-1/4 bg-white shadow-lg ">
                     <!-- icon -->
                     <div >
                         <i class="fa-solid fa-star text-orange-600 sm:text-2xl"></i>
@@ -103,30 +103,82 @@
 
     </header>
     <!-- main -->
-    <main>
+    <main class="max-w-screen-xl mx-auto ">
+        <!-- our feature section -->
+         <section >
+            <!-- title and description -->
+             <div>
+                <h1 class="font-bold text-2xl text-center">Our Featured Products</h1>
+                <p class="text-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloribus ab tempore reprehenderit ratione numquam laborum vero, error corrupti optio.</p>
+             </div>
+             <!-- card container -->
+              <div class="my-1 sm:grid sm:grid-cols-2 lg:grid-cols-4">
+                <!-- card 1-->
+                 <div class="p-2 my-1 rounded-md bg-gradient-to-b from-slate-500 to-slate-300 w-44 mx-auto">
+                    <!-- image -->
+                     <div>
+                        <img src="images/tea-1.png" alt="" class="mx-auto"> 
+                     </div>
+                     <h3 class="font-bold text-xl text-center mb-1">Lemon tea</h3>
+                     <p class="text-slate-700 text-center">Tasty cool lemon and tea</p>
+                 </div>
+                  <!-- card 2-->
+                  <div class="p-2 my-1 rounded-md bg-gradient-to-b from-slate-500 to-slate-300 w-44 mx-auto">
+                    <!-- image -->
+                     <div>
+                        <img src="images/tea-2.png" alt="" class="mx-auto"> 
+                     </div>
+                     <h3 class="font-bold text-xl text-center mb-1">Lemon tea</h3>
+                     <p class="text-slate-700 text-center">Tasty cool lemon and tea</p>
+                 </div>
+                  <!-- card 3-->
+                  <div class="p-2 my-1 rounded-md bg-gradient-to-b from-slate-500 to-slate-300 w-44 mx-auto">
+                    <!-- image -->
+                     <div>
+                        <img src="images/tea-3.png" alt="" class="mx-auto"> 
+                     </div>
+                     <h3 class="font-bold text-xl text-center mb-1">Lemon tea</h3>
+                     <p class="text-slate-700 text-center">Tasty cool lemon and tea</p>
+                 </div>
+                  <!-- card 4-->
+                  <div class="p-2 my-1 rounded-md bg-gradient-to-b from-slate-500 to-slate-300 w-44 mx-auto">
+                    <!-- image -->
+                     <div>
+                        <img src="images/tea-4.png" alt="" class="mx-auto"> 
+                     </div>
+                     <h3 class="font-bold text-xl text-center mb-1">Lemon tea</h3>
+                     <p class="text-slate-700 text-center">Tasty cool lemon and tea</p>
+                 </div>
+                
+              </div>
+              
+         </section>
 
     </main>
     <!-- footer -->
     <footer class=" bg-red-50  ">
-       <div class="max-w-screen-md mx-auto pt-10 pb-14">
+       <div class="w-[80%] mx-auto sm:max-w-screen-md  pt-10 pb-14">
          <!-- icon bar -->
-         <div class="flex justify-between ">
+         <div class="sm:flex sm:justify-between  ">
             <!-- icon -->
-             <div>
-                <img src="images/cup.png" alt="">
+             <div class="">
+                <img src="images/cup.png" alt="" class="justify-center mx-auto">
              </div>
              <!-- button -->
-              <div class="flex justify-between items-center gap-2">
-                <p class="text-slate-500">Ready to get started?</p>
-                <button class="bg-gradient-to-r from-red-400 to-red-500 px-4 py-2 rounded-md text-white font-bold">Get Started</button>
+              <div class="sm:flex sm:justify-between items-center sm:gap-2  ">
+               <div> <p class="text-slate-500 mt-2 text-center   ">Ready to get started?</p></div>
+                <div class="mx-auto">
+                    <button class="mt-2  bg-gradient-to-r from-red-400 to-red-500 px-4 py-2 rounded-md text-white font-bold ">Get Started</button>
+                </div>
+               
               </div>
          </div>
          <!-- the footer link -->
-          <div class="grid grid-cols-4 mt-8">
+          <div class="sm:grid sm:grid-cols-2 sm:gap-4 md:grid-cols-4 mt-8 text-center sm:text-left">
             <!-- quick link -->
-            <div>
+            <div class="my-5">
                 <h2 class="font-bold text-xl  mb-5">Quick Links</h2>
-                <ul>
+                <ul >
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -142,7 +194,7 @@
                 </ul>
             </div>
             <!-- Our service -->
-            <div>
+            <div class="my-5">
                 <h2 class="font-bold text-xl  mb-5">Our service</h2>
                 <ul>
                     <li>
@@ -160,7 +212,7 @@
                 </ul>
             </div>
             <!-- help -->
-            <div>
+            <div class="my-5">
                 <h2 class="font-bold text-xl mb-5">Help</h2>
                 <ul>
                     <li><a href="#">FAQs</a></li>
@@ -168,12 +220,12 @@
                 </ul>
             </div>
             <!-- subscription side -->
-            <div>
+            <div class="my-5">
                 <h2 class="font-bold text-xl">Subscribe to our <br>newsletter</h2>
-                <input type="email" placeholder="Email Address" class="bg-transparent border-b-2 border-slate-700 mt-5">
+                <input type="email" placeholder="Email Address" class="bg-transparent border-b-2 border-slate-700 mt-5 mx-auto">
                 <!-- icons -->
-                 <div class="flex gap-2 mt-3 text-slate-600">
-                    <i class="fa-brands fa-facebook"></i>
+                 <div class="my-5  gap-3 mt-3 text-slate-600 text-xl ">
+                    <i class="fa-brands fa-facebook hover:translate-y-3 hover:text-orange-800"></i>
                     <i class="fa-brands fa-square-twitter"></i>
                     <i class="fa-brands fa-instagram"></i>
 
